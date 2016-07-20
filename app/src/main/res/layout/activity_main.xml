@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:id="@+id/labAltitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Altitude:"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ff0000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textAltitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#12345678"
+        android:textColor="#ff0000"/>
+
+
+    <TextView
+        android:id="@+id/lblLongitued"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitued:"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ff0000"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textLongitued"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#12345678"
+        android:textColor="#ff0000"/>
+
+
+    <Button android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Trace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
